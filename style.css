@@ -1,0 +1,292 @@
+/*for index page and for sign in page*/
+
+.signup-bg {
+  background-image: url("resources/resources2/background/background6.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.admin {
+  display: flex;
+  justify-content: center;
+  /* height: 100vh; */
+  align-items: center;
+}
+
+.head-bg {
+  background-image: url("resources/head.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.logo1 {
+  background-image: url("resources/resources2/icon/icon2.png");
+  height: 100px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.logo2 {
+  background-image: url("resources/resources2/icon/icon2.png");
+  height: 100px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@font-face {
+  font-family: "Quicksand";
+  src: url("resources/fonts/Quicksand-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Ubuntu Mono", monospace;
+  src: url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+}
+
+* {
+  font-family: "Quicksand";
+  font-size: 14px;
+}
+
+.navbar {
+  background-image: linear-gradient(to left, #0dcaf0, black);
+}
+
+.image {
+  background-image: url("resources/resources2/background/adbackground.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.active {
+  color: #00f4c3;
+}
+.title2 {
+  font-family: "Quicksand";
+  font-size: 42px;
+  letter-spacing: 3.5px;
+  font-weight: bold;
+}
+
+.background {
+  background-image: url("resources/resources2/front/img2.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.dCard {
+  border-radius: 15px;
+  box-shadow: black;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.title3 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/*for index page and for sign in page*/
+
+/*header*/
+
+.cart-icon {
+  background-image: url("resources/cart_icon.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-size: 35px;
+}
+
+/*header*/
+
+/*Home*/
+.poster-img1 {
+  height: 500px;
+  background-repeat: no-repeat;
+}
+
+.poster-caption {
+  margin-bottom: 150px;
+}
+
+.poster-title {
+  font-weight: bold;
+  color: rgb(255, 252, 252);
+  font-size: 50px;
+}
+
+.poster-title1 {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.poster-text {
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+}
+
+/*HOME*/
+
+/*Add Product*/
+.pm {
+  height: 65px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.pm1 {
+  background-image: url(resources/pay/visa_img.png);
+}
+
+.pm2 {
+  background-image: url(resources/pay/paypal_img.png);
+}
+
+.pm3 {
+  background-image: url(resources/pay/mastercard_img.png);
+}
+
+.pm4 {
+  background-image: url(resources/pay/american_express_img.png);
+}
+
+.card {
+  border: none;
+}
+.product {
+  background-color: #eee;
+}
+.act-price {
+  color: red;
+  font-weight: 700;
+}
+.dis-price {
+  text-decoration: line-through;
+}
+
+.singleProduct {
+  padding-top: 65px;
+  padding-bottom: 145px;
+  padding: 20px;
+}
+
+.Mainimg {
+  height: 545px;
+  background-image: url("resources/products/ps4 pro.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.product-qty {
+  width: 105px;
+  height: 45px;
+  padding: 10px;
+}
+
+.qty-buttons {
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 30px;
+  border: solid 1px rgb(72, 71, 71);
+}
+
+/*Single Product view*/
+
+/*Wishlist*/
+.emptyView {
+  height: 400px;
+  background-image: url(resources/watchlistEmptyView.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+/*Wishlist*/
+
+/*Cart*/
+.emptyCart {
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(resources/emotycart.png);
+}
+/*Cart*/
+
+.admin-bg {
+  background-image: url("resources/bgg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.dCard {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.card-header {
+  background-image: linear-gradient(to right, #0dcaf0, black);
+}
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .user-report {
+    margin-top: 600px;
+  }
+  .manage-product {
+    margin-bottom: 75px;
+  }
+  .manage-product-2 {
+    margin-top: 75px;
+  }
+
+  .manage-stock {
+    margin-bottom: 75px;
+  }
+  .manage-stock-2 {
+    margin-top: 75px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .user-report {
+    margin-top: 250px;
+  }
+
+  .manage-product-2 {
+    margin-top: 100px;
+  }
+  .manage-stock {
+    margin-bottom: 75px;
+  }
+  .manage-stock-2 {
+    margin-top: 100px;
+  }
+
+  .manage-stock-m {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 992px) {
+  .admin {
+    height: 100vh;
+  }
+}
